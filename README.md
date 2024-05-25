@@ -1,2 +1,2 @@
 # linux_learn
-记录从24开始的linux学习，之前的随缘更新
+Recording my Linux learning journey starting from 2024, with previous updates posted at random.
