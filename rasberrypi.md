@@ -11,5 +11,6 @@ sudo nmcli connection modify shundong-5G ipv4.addresses 192.168.1.150/24 ipv4.me
 ```bash
 nutui
 ```
-** 然后进去配置 **
+**然后进去配置**
+**选择网线**
 
