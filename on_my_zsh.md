@@ -34,7 +34,7 @@
 > 然后在终端输入
 
 ```bash
-    . ~/zshrc
+    . ~/.zshrc
     p10k configure
 ```
 > 开始自定义自己的终端
