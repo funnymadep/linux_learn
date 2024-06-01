@@ -1,4 +1,4 @@
-# on my zsh + p10k 安装
+# oh my zsh + p10k 安装
 
 ### 1.安装zsh以及配置
 
@@ -13,11 +13,13 @@
    chsh -s /bin/zsh  
 ``` 
 
-### 3.安装p10k 和 on my zsh
+### 3.安装oh my zsh 和 p10k
+
+***注意！ 一定要先安装oh my zsh 再安装 p10k***
+
 ```bash
+    sh -c "$(curl -fsSL https://gitee.com/pocmon/ohmyzsh/raw/master/tools/install.sh)"h
     git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
-    wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh
-    sh install.sh
 ```
 ### 4.设置p10k为默认主题
 
