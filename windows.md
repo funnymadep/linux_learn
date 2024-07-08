@@ -1,6 +1,9 @@
 # windows vscode cmake 环境搭建
 
-## 1. windows的minw32自带c/c++库 无需指定
+## 1. windows的mingw自带c/c++库 无需指定
+你需要下载mingw，vscode和cmake，这点不需要多叙述，然后在windows环境变量中添加mingw/bin和cmake/bin。
+
+方法为邮件此电脑->属性->高级系统设置->环境变量，然后在系统变量里添加你的bin路径，一般目前都会在安装时自动添加。
 
 ## 2. windows的cmake 
 1. 需要在project之前指定编译器路径，比如
